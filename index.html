@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Opara Princewill"> 
+		<title>Doncity To-Do List</title>
+		<link type="text/css" rel="stylesheet" href="todo-list.css">
+		<link href="./assets/css/all.css" rel="stylesheet">
+		<!-- From realfavicongenerator.net -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./image/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./image/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./image/favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="mask-icon" href="./image/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!-- End realfavicongenerator.net -->
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<script type="text/javascript" src="sw.js"></script>
+	</head>
+	<body>
+		<main>
+			<div class="row header">
+				<span class="settings"><i class="fas fa-tasks"></i></span>
+				<span>Doncity To-Do List</span>
+				<span class="save"><i class="fas fa-save"></i></span>
+			</div>
+			<div class="row input">
+				<div>
+					<input type="text" placeholder="Add Task">
+					<button>+Task</button>
+				</div>
+			</div>
+			<div class="row task" id="task">
+				<ul task-checked>
+					
+				</ul>
+			</div>
+			<div class="caution">
+				<h3>Use Mobile device for better experience</h3>
+			</div>
+		</main>
+		<div class="about">
+			<div>
+				<p>
+					Productivity is what makes Human unique.
+					According to statistics, people who use Todo List to 
+					organize their daily tasks are more productive than people
+					who don't.				
+				</p>
+			</div>
+			<div>
+				<ul>
+					<li><span><input type="checkbox" checked></span>Click to Mark Done Task</li>
+					<li><span><input type="button" value="X"></span>Click to Delete Task</li>
+					<li><span class="settings"><i class="fas fa-tasks"></i></span>Click to Clear all Tasks</li>
+					<li><span class="settings"><i class="fas fa-save"></i></span>Click to save Tasks</li>
+				</ul>
+			</div>
+			<div class="about-contact">
+				<p>Developed By Opara Princewill +2348064261631 princewill.opara@outlook.com</p>
+			</div>
+			<div class="back">
+				<button>Back</button>
+			</div>
+		</div>
+		<div class="editor">
+			<p>Edit Task</p>
+			<div>
+				<input type="text" value="Testing">
+			</div>
+			<div>
+				<button>CANCEL</button><button>OK</button>
+			</div>
+		</div>
+		<div class="sidemenu">
+			<p><span class="close-menu">x</span></p>
+			<ul>
+				<li class="clear-tasks"><i class="fas fa-trash-alt"></i> Clear saved tasks</li>
+				<li class="help">Help</li>
+			</ul>
+		</div>
+		<div class="save-success">
+			<div>
+				<span>Saved</span>
+			</div>
+		</div>
+		<footer class="copy-right">
+			<p>Opara Princewill &copy; ALC4.0 Rivers Project</p>
+			<p>
+				<a href="https://github.com/doncity-tech"><i class="fab fa-github-square"></i></a>
+				<a href="https://twitter.com/Doncity_Tech"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.linkedin.com/in/opara-princewill-chimezie-2b681095/"><i class="fab fa-linkedin"></i></a>
+			</p>
+		</footer>
+		<script type="text/javascript" src="todo-list.js" ></script>
+		<script type="text/javascript" src="sw-registration.js" ></script>
+	</body>
+</html>
