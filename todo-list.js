@@ -134,7 +134,7 @@ const saveToLocalStorage = () => {
 		// document.querySelector('.storage-result').innerHTML = 
 		// "Your browser does not support Web Storage";
 	}
-	qs('.save').style.opacity = '0.3';
+	qs('.save').style.opacity = '0';
 }
 
 // compare localstorage and ul list
@@ -159,7 +159,7 @@ const compareStorage = () => {
 		qs('.save').style.opacity = '1';
 	}
 	else {
-		qs('.save').style.opacity = '0.3';
+		qs('.save').style.opacity = '0';
 	}
 }
 

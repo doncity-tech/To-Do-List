@@ -34,15 +34,22 @@ main {
 .header span:not(:nth-child(2)) {
 	cursor: pointer;
 }
-.header .fas {
+.row.header img {
 	padding: 5px 10px;
-	font-size: 20px;
+}
+.row.header img:not(:first-child), .clear-tasks img{
+	width: 30px;
+	height: 30px;
+}
+.row.header img:first-child {
+	width: 18px;
+	height: 18px;
 }
 .header span:nth-child(2) {
 	font-size: 25px;
 }
 .save {
-	opacity: 0.3;
+	opacity: 0;
 }
 main > div {
 	width: 100%;
@@ -178,7 +185,8 @@ main > div {
 	border-right: 0;
 	border-left: 0;
 	font-weight: 400;
-	color: rgb(180, 177, 177);
+	color: white;
+	opacity: 0.8;
 }
 .sidemenu ul li:not(:last-child) {
 	border-bottom: 0;
