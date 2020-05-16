@@ -33,20 +33,18 @@ main {
 }
 .header span:not(:nth-child(2)) {
 	cursor: pointer;
-}
-.row.header img {
 	padding: 5px 10px;
-}
-.row.header img:not(:first-child), .clear-tasks img{
-	width: 30px;
-	height: 30px;
 }
 .row.header img:first-child {
 	width: 18px;
 	height: 18px;
 }
+.row.header img:last-child {
+	width: 20px;
+	height: 20px;
+}
 .header span:nth-child(2) {
-	font-size: 25px;
+	font-size: 30px;
 }
 .save {
 	opacity: 0;
@@ -331,7 +329,7 @@ main > div {
 		box-shadow: none;
 	}
 	.header span:nth-child(2) {
-		font-size: 18px;
+		font-size: 25px;
 	}
 	.row.input div{
 		width: 90%;		

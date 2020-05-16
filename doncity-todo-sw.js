@@ -1,13 +1,19 @@
 const cacheName = 'doncity-todo-app-v1';
 const filesToCache = [
-    '/',
     'index.html',
+    '/',
     'todo-list.css',
     './image/image.jpeg',
+    './image/apple-touch-icon.png',
+    './image/android-chrome-152x152.png',
+    './image/android-chrome-128x128.png',
+    './image/android-chrome-192x192.png',
+    './image/android-chrome-144x144.png',
+    './image/delete.png',
+    './image/menu-icon.png',
+    './image/save-icon.png',
     'todo-list.js',
     'sw-registration.js',
-    './assets/css/all.css',
-    './assets/webfonts'
 ];
 
 // Install Service worker and cache files(Precaching resources)
