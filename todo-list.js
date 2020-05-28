@@ -25,26 +25,6 @@ const saveSuccessPage = () => {
 	}, 1000);
 };
 
-// Get today's date
-const todayTime = () => {
-	const todayDate = new Date(); //return date object
-	const today = todayDate.getDate();
-	const month = todayDate.getMonth() + 1;
-	const year = todayDate.getFullYear();
-	const dayArray = [
-		'Sunday',
-		'Monday',
-		'Tuesday',
-		'Wednesday',
-		'Thursday',
-		'Friday',
-		'Saturday',
-	];
-	let date = dayArray[todayDate.getDay()] + ', ';
-	date += today + '/' + month + '/' + year;
-	return date;
-};
-
 // Get input from the user and display as ToDo list
 const addTodoList = () => {
 	let input = qs('.input input');
