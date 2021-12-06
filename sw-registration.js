@@ -10,3 +10,16 @@ if('serviceWorker' in navigator) {
 		});
 	});
 }
+
+
+// const myTask = () => {
+// 	const aboutMe = {
+//     full_name : "Princewill Opara",
+//     HNG_ID : "HNG-01654",
+//     email : "doncitymail@gmail.com",
+//     language : "Javascript"
+// 	}
+// 	return `Hello World, this is ${aboutMe.} with HNGi7 ID ${aboutMe.HNG_ID} using ${aboutMe.language} for stage 2 task`;
+// }
+
+// myTask();

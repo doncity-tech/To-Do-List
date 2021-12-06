@@ -72,7 +72,6 @@ if (retriveWebStorage()) {
 	let getData = retriveWebStorage();
 	getData
 		.split(',')
-		.reverse()
 		.forEach((x) => {
 			let li = document.createElement('li');
 			if (getStyle(x)) {
